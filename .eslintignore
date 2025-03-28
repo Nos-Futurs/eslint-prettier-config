@@ -1,6 +1,0 @@
-/node_modules
-/LICENSE
-/package.json
-# .eslintrc.(.*)js
-# tsconfig(.*).json
-# commitlint.config.js
