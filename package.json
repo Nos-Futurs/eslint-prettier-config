@@ -1,12 +1,9 @@
 {
   "name": "@nos-futurs/eslint-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Custom ESlint config",
-  "files": [
-    "eslint.config.js"
-  ],
   "type": "module",
-  "main": "index.js",
+  "main": "eslint.config.js",
   "keywords": [
     "eslint",
     "eslint-config"
@@ -30,8 +27,11 @@
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.28.0"
   },
-  "peerDependencies": {},
+  "peerDependencies": {
+		"eslint": ">= 9"
+	},
   "scripts": {
+    "inspect": "pnpm dlx @eslint/config inspector",
     "lint-js": "eslint test/test.js --fix",
     "lint-ts": "eslint test/test.ts --fix"
   },
