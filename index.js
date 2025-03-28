@@ -67,7 +67,16 @@ const nosFutursTsConfig = {
 };
 
 export default tseslint.config([
-  globalIgnores(["**/node_modules/**", "**/dist/**", "**/build/**", "**.js"]),
+  globalIgnores([
+    "**/*.js",
+    "**/*.spec.ts",
+    "**/*.test.ts",
+    "**/*.spec.js",
+    "**/*.test.js",
+    "**/build/**",
+    "**/dist/**",
+    "**/node_modules/**",
+  ]),
   pluginImportX.flatConfigs.recommended,
   tseslint.configs.recommendedTypeChecked,
   stylistic.configs.recommended,
