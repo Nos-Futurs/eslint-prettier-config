@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.1](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v1.5.0...eslint-config-v2.0.1) (2025-03-28)
+
+
+### Miscellaneous Chores
+
+* release 2.0.0 ([9fe4fad](https://github.com/Nos-Futurs/eslint-prettier-config/commit/9fe4fad6e7e3f235039bed4581ed9ecea79bd53f))
+* release 2.0.1 ([fa4daa3](https://github.com/Nos-Futurs/eslint-prettier-config/commit/fa4daa3e9aab68ed612faf5c5e61dde173873913))
+
 ## [1.5.0](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v1.4.7...eslint-config-v1.5.0) (2024-04-30)
 
 
