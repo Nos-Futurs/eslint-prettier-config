@@ -3,9 +3,8 @@
   "version": "2.0.3",
   "description": "Custom ESlint config",
   "type": "module",
-  "main": "eslint.config.js",
   "exports": {
-    ".": "./eslint.config.js"
+    ".": "./index.js"
   },
   "keywords": [
     "eslint",
