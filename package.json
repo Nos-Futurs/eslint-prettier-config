@@ -1,7 +1,7 @@
 {
   "name": "@nos-futurs/eslint-config",
-  "version": "1.5.0",
-  "description": "Custom ESlint/Prettier config",
+  "version": "2.0.0",
+  "description": "Custom ESlint config",
   "files": [
     "eslint.config.js"
   ],
@@ -9,49 +9,31 @@
   "main": "index.js",
   "keywords": [
     "eslint",
-    "eslint-config",
-    "prettier",
-    "prettier-config"
+    "eslint-config"
   ],
   "author": "Nos Futurs",
   "license": "MIT",
-  "dependencies": {
-    "@commitlint/cli": "19.8.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-airbnb-typescript": "18.0.0",
-    "globals": "^16.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@commitlint/config-conventional": "19.8.0",
     "@eslint/js": "^9.23.0",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@types/eslint": "9.6.1",
     "@types/node": "22.13.14",
-    "eslint": "^9.23.0",
-    "eslint-config-prettier": "10.1.1",
-    "eslint-import-resolver-typescript": "^4.2.5",
-    "eslint-plugin-import-x": "^4.9.3",
-    "eslint-plugin-prettier": "^5.2.5",
-    "eslint-plugin-unicorn": "^58.0.0",
-    "husky": "9.1.7",
-    "lint-staged": "15.5.0",
-    "prettier": "3.5.3",
-    "typescript": "^5.8.2",
-    "typescript-eslint": "^8.28.0"
-  },
-  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "8.28.0",
     "@typescript-eslint/parser": "8.28.0",
     "eslint": "9.23.0",
     "eslint-import-resolver-typescript": "4.2.5",
     "eslint-plugin-import-x": "4.9.3",
     "eslint-plugin-simple-import-sort": "12.1.1",
-    "prettier": "3.5.3"
+    "eslint-plugin-unicorn": "^58.0.0",
+    "globals": "^16.0.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0"
   },
+  "peerDependencies": {},
   "scripts": {
-    "commitlint": "commitlint --edit",
-    "lint": "eslint . --fix",
-    "lint-ts": "eslint . --fix"
+    "lint-js": "eslint test/test.js --fix",
+    "lint-ts": "eslint test/test.ts --fix"
   },
   "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
