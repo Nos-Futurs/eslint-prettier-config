@@ -1,7 +1,7 @@
 {
   "name": "@nos-futurs/eslint-config",
-  "version": "2.0.7",
-  "description": "Custom ESlint config",
+  "version": "2.0.8",
+  "description": "Custom ESlint config for Typescript projects",
   "type": "module",
   "exports": {
     ".": "./index.js"

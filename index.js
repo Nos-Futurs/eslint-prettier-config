@@ -70,6 +70,8 @@ const nosFutursTsConfig = {
 export default tseslint.config([
   globalIgnores([
     "**/*.js",
+    "**/*.cjs",
+    "**/*.mjs",
     "**/*.spec.ts",
     "**/*.test.ts",
     "**/*.spec.js",
