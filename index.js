@@ -45,6 +45,7 @@ const nosFutursTsConfig = {
     '@typescript-eslint/no-explicit-any': 'warn',
     '@stylistic/type-annotation-spacing': 'error', // Enforce consistent spacing before and after type annotations
     "no-unused-vars": ["error", { "destructuredArrayIgnorePattern": "^_" }], // Ignore unused variables that are destructured from arrays
+    "@typescript-eslint/no-unused-vars": ["error", { "destructuredArrayIgnorePattern": "^_" }], // Ignore unused variables that are destructured from arrays
     // INFO: must disable the base rule as it can report incorrect errors. See https://typescript-eslint.io/rules/no-shadow/#how-to-use
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
