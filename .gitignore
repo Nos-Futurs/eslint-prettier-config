@@ -16,11 +16,7 @@
 !/.gitmodules
 
 # -------------------------------- Config files -------------------------------- #
-!/.eslintignore
-!/.eslintrc.js
-!/.eslintrc.ts.js
-!/index.js
-!/ts.js
+!/index.ts
 !/tsconfig.json
 
 # -------------------------------- Commitlint -------------------------------- #
