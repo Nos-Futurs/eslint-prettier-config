@@ -5,6 +5,20 @@
       "bump-minor-pre-major": false,
       "bump-patch-for-minor-pre-major": false,
       "changelog-path": "CHANGELOG.md",
+      "changelog-sections": [
+        {
+          "section": "Features",
+          "type": "feat"
+        },
+        {
+          "section": "Bug Fixes",
+          "type": "fix"
+        },
+        {
+          "section": "Code Refactoring",
+          "type": "refactor"
+        }
+      ],
       "draft": false,
       "prerelease": false,
       "release-type": "node"
