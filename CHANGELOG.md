@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.1](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v2.1.0...eslint-config-v2.1.1) (2025-06-26)
+
+
+### Code Refactoring
+
+* revert TS ESLint configuration to JS version ([#17](https://github.com/Nos-Futurs/eslint-prettier-config/issues/17)) ([d8b2549](https://github.com/Nos-Futurs/eslint-prettier-config/commit/d8b2549845c3803848f566e5da040059fb53daa2))
+
 ## [2.1.0](https://github.com/Nos-Futurs/eslint-prettier-config/compare/eslint-config-v2.0.9...eslint-config-v2.1.0) (2025-06-26)
 
 
